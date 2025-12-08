@@ -1,0 +1,136 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styling */
+body {
+  font-family: "Georgia", serif;
+  background-color: #f8f5f0;
+  color: #4b3f36;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header */
+header {
+  background-color: #fffaf3;
+  padding: 20px 0;
+  border-bottom: 2px solid #e2d8c6;
+}
+
+header .container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4b3f36;
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  color: #a67b5b;
+}
+
+/* Hero section */
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1509440159598-8b1cbe0c8c57?auto=format&fit=crop&w=1200&q=80");
+  background-size: cover;
+  background-position: center;
+  padding: 160px 20px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.hero a {
+  padding: 12px 30px;
+  background: #a67b5b;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.hero a:hover {
+  background: #8c6649;
+}
+
+/* About section */
+section {
+  padding: 60px 20px;
+}
+
+.container {
+  width: 85%;
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+section p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px 0;
+  background: #fffaf3;
+  border-top: 2px solid #e2d8c6;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 16px;
+}
