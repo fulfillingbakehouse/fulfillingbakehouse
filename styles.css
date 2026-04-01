@@ -110,6 +110,15 @@ img {
   text-transform: capitalize;
 }
 
+.hero-content h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+  text-transform: capitalize;
+}
+
 .hero-content p {
   font-size: clamp(1rem, 2vw, 1.2rem);
   margin-bottom: 22px;
