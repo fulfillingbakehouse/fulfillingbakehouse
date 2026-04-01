@@ -110,13 +110,13 @@ img {
   text-transform: capitalize;
 }
 
-.hero-content h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: clamp(2.4rem, 5vw, 3.6rem);
-  font-weight: 500;
-  letter-spacing: 1px;
-  margin-bottom: 12px;
-  text-transform: capitalize;
+.hero-content h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #E6A34A;
+  margin: 12px auto 0;
 }
 
 .hero-content p {
