@@ -1,32 +1,82 @@
-<header class="header">
-  <img src="img/logo.png" alt="Fulfilling Bakehouse logo" class="logo">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fulfilling Bakehouse</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <img src="img/logo.png" alt="Fulfilling Bakehouse logo" class="logo" />
 
-  <nav class="nav">
-    <a href="#">Home</a>
-    <a href="#">Menu</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
-  </nav>
-</header>
+      <nav class="site-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<section class="hero">
-  <img src="img/hero.png" alt="Fresh baked goods" class="hero-img">
+  <main>
+    <section id="home" class="hero">
+      <img src="img/hero.png" alt="Fresh baked goods" class="hero-image" />
+      <div class="hero-overlay">
+        <div class="hero-content">
+          <h1>Fulfilling Bakehouse</h1>
+          <p>Warm, homemade breads, cookies, and simple cakes.</p>
+          <a href="#menu" class="button">View Menu</a>
+        </div>
+      </div>
+    </section>
 
-  <div class="hero-text">
-    <h1>Fulfilling Bakehouse</h1>
-    <p>Warm, homemade breads, cookies & cakes baked with love.</p>
-    <a href="#" class="cta-btn">View Menu</a>
-  </div>
-</section>
+    <section id="about" class="section">
+      <div class="container narrow">
+        <h2>About</h2>
+        <p>
+          Fulfilling Bakehouse is a cozy home bakery inspired by simple living,
+          wholesome ingredients, and the joy of sharing homemade food.
+        </p>
+      </div>
+    </section>
 
-<section class="about">
-  <h2>About</h2>
-  <p>
-    A cozy home bakery inspired by simple living, wholesome ingredients,
-    and the joy of sharing homemade food.
-  </p>
-</section>
+    <section id="menu" class="section section-alt">
+      <div class="container">
+        <h2>Menu</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Breads</h3>
+            <p>Freshly baked loaves made with care and comfort in mind.</p>
+          </article>
 
-<footer>
-  <p>© 2025 Fulfilling Bakehouse</p>
-</footer>
+          <article class="card">
+            <h3>Cookies</h3>
+            <p>Soft, classic cookies for everyday sweetness.</p>
+          </article>
+
+          <article class="card">
+            <h3>Simple Cakes</h3>
+            <p>Unfussy cakes perfect for sharing at home.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container narrow">
+        <h2>Contact</h2>
+        <p>Email: hello@fulfillingbakehouse.com</p>
+        <p>Instagram, Facebook, and TikTok links coming soon.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Fulfilling Bakehouse</p>
+    </div>
+  </footer>
+</body>
+</html>
