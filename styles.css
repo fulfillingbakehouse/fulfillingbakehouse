@@ -108,15 +108,17 @@ img {
   letter-spacing: 1px;
   margin-bottom: 12px;
   text-transform: capitalize;
+  position: relative;
 }
 
 .hero-content h1::after {
   content: "";
   display: block;
-  width: 60px;
-  height: 2px;
+  width: 70px;
+  height: 3px;
   background: #E6A34A;
-  margin: 12px auto 0;
+  margin: 14px auto 0;
+  border-radius: 999px;
 }
 
 .hero-content p {
