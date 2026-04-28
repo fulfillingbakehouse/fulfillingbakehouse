@@ -211,3 +211,39 @@ img {
     min-height: 56vh;
   }
 }
+@media (max-width: 800px) {
+  .header-inner {
+    flex-direction: column;
+  }
+
+  .logo {
+    width: 180px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-image {
+    height: 56vh;
+  }
+
+  .hero {
+    min-height: 56vh;
+  }
+}
+
+/* 👇 ADD THIS BELOW */
+
+.text-link {
+  display: inline-block;
+  margin-top: 14px;
+  color: var(--color-text);
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid var(--color-highlight);
+}
+
+.text-link:hover {
+  color: var(--color-highlight);
+}
