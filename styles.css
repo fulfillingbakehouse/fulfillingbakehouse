@@ -259,4 +259,8 @@ img {
   object-fit: cover;
   border-radius: 12px;
   margin-bottom: 12px;
+  display: block;
+}
+.card img {
+  border: 2px solid red;
 }
